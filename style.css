@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: justify;
+}
+
+header,
+footer {
+    height: 10vh;
+    display: flex;
+    text-align: center;
+}
+
+.header_1,
+.footer_1 {
+    width: 50%;
+    background-color: #f04242;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: rgb(192, 51, 51);
+    cursor: pointer;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+}
+
+.header_2 {
+    width: 50%;
+    display: flex;
+}
+
+.header_2_1 {
+    width: 50%;
+    background-color: rgb(226, 75, 75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_2_2 {
+    width: 50%;
+    background-color: rgb(212, 64, 64);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_2 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(201, 62, 62);
+}
+
+.section_1 {
+    height: 90vh;
+    display: flex;
+}
+
+.section_1_1 {
+    width: 50%;
+    background-color: rgb(223, 72, 72);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+.section_1_2 {
+    width: 50%;
+}
+
+.section_1_2_1 {
+    height: 45vh;
+    background-color: rgb(204, 47, 47);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+.section_1_2_2 {
+    height: 45vh;
+    background-color: rgb(219, 64, 64);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+.section_p {
+    height: 100vh;
+}
+
+.title_div {
+    height: 10vh;
+    background-color: rgb(189, 55, 55);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.port_div {
+    height: 90vh;
+    display: flex;
+}
+
+.port_div_1 {
+    width: 50%;
+}
+
+.port_div_2 {
+    width: 50%;
+}
+
+.port_div_11 {
+    height: 45vh;
+    background-color: rgb(219, 67, 67);
+    padding: 1.5rem;
+}
+
+.port_div_12 {
+    height: 45vh;
+    background-color: rgb(219, 81, 81);
+    padding: 1.5rem;
+}
+
+.port_div_21 {
+    height: 30vh;
+    background-color: rgb(219, 57, 57);
+    padding: 1.5rem;
+}
+
+.port_div_22 {
+    height: 30vh;
+    background-color: rgb(192, 56, 56);
+    padding: 1.5rem;
+}
+
+.port_div_23 {
+    height: 30vh;
+    background-color: rgb(235, 62, 62);
+    padding: 1.5rem;
+}
+
+::selection {
+    background-color: rgb(255, 123, 123);
+    color: black;
+}
